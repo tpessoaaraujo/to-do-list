@@ -1,0 +1,49 @@
+.darkMode {
+    background-color: var(--background-dark)
+}
+
+.darkMode header {
+    background-color: var(--second-color-dark);
+    border-bottom: .1rem solid #0f1020;
+}
+
+.darkMode main .container {
+    background-color: var(--second-color-dark);
+}
+
+.darkMode main .container .date {
+    color: var(--second-color);
+}
+
+.darkMode main .container .new-task-container input {
+    border: .1rem solid var(--background-dark);
+    background-color: #0B0C1A;
+    color: hsl(0, 0%, 100%);
+}
+
+.darkMode main .container .new-task-container input:focus {
+    border-color: hsl(200, 3%, 83%);
+}
+
+.darkMode main .container .tasks-container .task-item {
+    background-color: var(--second-color-dark);
+    border: .1rem solid var(--primary-color);
+}
+
+.darkMode main .container .tasks-container .task-item p {
+    color: hsl(0, 0%, 100%);
+}
+
+.darkMode main .container .tasks-container .task-item .delete-task-button {
+    background-color: var(--primary-color);
+    color: hsl(0, 0%, 100%);
+}
+
+.darkMode footer,
+.darkMode footer p a {
+    color: hsl(0, 0%, 100%);
+}
+
+.darkMode footer p a:hover {
+    color: hsl(0, 0%, 100%);
+}

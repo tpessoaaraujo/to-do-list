@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --default-font: "Poppins", sans-serif;
+    --primary-color: hsl(239, 59%, 23%);
+    --second-color: hsl(0, 0%, 100%);
+    --background-color: hsl(0, 0%, 94%);
+    --background-dark: hsl(236, 41%, 7%);
+    --second-color-dark: hsl(240, 56%, 6%);
+}
+
+html {
+    font-size: 10px;
+    /* 1rem = 10px */
+}
+
+body {
+    width: 100%;
+    font-family: var(--default-font);
+    background-color: var(--background-color);
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: var(--primary-color);
+    color: white;
+
+    width: 98.7vw;
+    height: 6rem;
+
+    padding-right: 3rem;
+    padding-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+header button {
+    border: none;
+    background-color: transparent;
+}
+
+header button .fa-moon {
+    font-size: 2rem;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+header button .fa-sun {
+    font-size: 2rem;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container {
+    background-color: hsl(0, 0%, 100%);
+    padding: 2rem 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    min-width: 40vw;
+    border-radius: 0.7rem;
+}
+
+main .container .date {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    font-weight: 500;
+    padding: .8rem;
+}
+
+main .container .new-task-container {
+    background-color: transparent;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: row;
+}
+
+main .container .new-task-container input {
+    flex: 3;
+    font-size: 1.6rem;
+    border: 0.2rem solid hsl(200, 3%, 83%);
+    border-radius: 5rem;
+    padding: 1.2rem;
+    font-weight: 500;
+}
+
+main .container .new-task-container input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+main .container .new-task-container .new-task-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    max-width: 4rem;
+    max-height: 4rem;
+
+    border-radius: 50%;
+
+    flex: 1;
+    border: none;
+
+    font-size: 1.7rem;
+    font-weight: 700;
+
+    padding: 1.2rem;
+    margin-left: 1.2rem;
+    cursor: pointer;
+
+    background-color: var(--primary-color);
+    color: hsl(0, 0%, 100%);
+}
+
+main .container .tasks-container {
+    background: transparent;
+    padding: 3rem 2rem;
+    width: 100%;
+}
+
+main .container .tasks-container .task-item {
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 3rem;
+    box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+main .container .tasks-container .task-item .delete-task-button {
+    background-color: var(--primary-color);
+    color: hsl(0, 0%, 100%);
+    padding: 1.2rem;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+
+main .container .tasks-container .task-item p {
+    cursor: pointer;
+    padding-left: 1.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+
+    font-size: 1.3rem;
+}
+
+footer p a {
+    text-decoration: none;
+    color: hsl(0, 0%, 0%);
+}
+
+footer p a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+/* Utilities */
+
+.error {
+    border: 0.2rem solid darkred !important;
+}
+
+.error::placeholder {
+    color: darkred;
+}
+
+.completed {
+    color: hsl(0, 0%, 83%);
+    text-decoration: line-through;
+}
+
+.remove {
+    display: none;
+}

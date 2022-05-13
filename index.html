@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Organize seu dia com uma lista de tarefas simples." />
+    <meta name="author" content="Thiago Pessoa Araujo" />
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/darkmode.css" />
+    <script src="/js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Lista de Tarefas</h1>
+        <button class="buttonDark" onclick="onDarkMode()"><i class="iconMode fa-solid fa-moon"></i></button>
+    </header>
+    <main>
+        <div class="container">
+            <div class="date">
+                <span class="currentDayMonth"></span>
+                <span class="currentYear"></span>
+            </div>
+            <div class="new-task-container">
+                <input type="text" class="new-task-input" placeholder="Tarefa para ser feita..." />
+                <button class="new-task-button">+</button>
+            </div>
+            <div class="tasks-container"></div>
+        </div>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="https://beacons.ai/thiagopessoaaraujo">Thiago Pessoa Araujo</a></p>
+    </footer>
+    <script src="https://kit.fontawesome.com/76e9fa9b83.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
