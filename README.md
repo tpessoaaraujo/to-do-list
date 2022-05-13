@@ -10,8 +10,8 @@
     <img align="center" alt="Thiago-Js" height="33" width="43" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
   </div>
   
-<h3>Apresentação do projeto:</h3>
-<p>Vídeo: https://youtu.be/FM3VDQkPNQg</p>
+<h3>Projeto:</h3>
+<p><a href="https://www.linkedin.com/posts/thiagopessoaaraujo_todolist-javascript-html-activity-6930971219466809344-oyqN?utm_source=linkedin_share&utm_medium=member_desktop_web" target="_blank"> Apresentação do projeto no LinkedIn</p>
   
 ##
   
