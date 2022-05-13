@@ -10,6 +10,9 @@
     <img align="center" alt="Thiago-Js" height="33" width="43" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
   </div>
   
+<h3>Apresentação do projeto:</h3>
+<p>Vídeo: https://youtu.be/FM3VDQkPNQg</p>
+  
 ##
   
 <div>
