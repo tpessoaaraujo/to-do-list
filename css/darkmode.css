@@ -47,3 +47,7 @@
 .darkMode footer p a:hover {
     color: hsl(0, 0%, 100%);
 }
+
+.darkMode footer .fa-github {
+    color: hsl(0, 0%, 100%);
+}
